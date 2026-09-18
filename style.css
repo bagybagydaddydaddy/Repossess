@@ -1,0 +1,139 @@
+* {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: "Arial", sans-serif;
+    }
+html, body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  text-align: center;
+  margin:0 auto;
+  
+}
+ .container p {
+  color:#606770;
+  font-size:13px;
+  margin-top:7px;
+}
+ .container img {
+  border-radius:50%;
+  height:59px;
+  width:59px;
+  margin:52px;
+}
+
+
+.login-box {
+  padding: 20px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+  label {
+   height:1px;
+   width:1px;
+   overflow:hidden;
+}
+
+.login-box input {
+  padding: 13px;
+  margin: 6px 0;
+  font-size:15px;
+  border: 1px solid #dde2e8
+;
+  color: #000000
+;
+  border-radius: 15px;
+  height:60px;
+}
+  input::placeholder {
+  color:#5f6e7c;
+}
+ input:focus { 
+  border-color: #5d6b7a;
+  outline:none;
+}
+.login-button {
+  background: #0064e0;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 8px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #166fe5;
+}
+
+.forgot-link {
+  margin:15px auto 67px auto;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.foot {
+  font-size: 14px;
+  padding:12px;
+  margin-top:27px;
+  background-color: #fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-width:400%
+  justify-content:center;
+  gap:1px;
+  width:100%;
+}
+ .separator {
+  display:flex;
+  flex-direction:column;
+  gap:1px;
+  justify-content:center;
+  width:100%;
+  text-align:center;
+  align-items:center;
+}
+.button {
+  color: #0064e0;
+  border: 1px solid #0064e0;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;  
+  background: #fff;
+  margin-top:0px;
+  height:100%;
+  width:100%;
+  text-decoration:none;
+}
+.separator img {
+ height:108px;
+ margin:8px 0px 4px 0px;
+ width:200px;
+}
+ .meta img {
+ height:108px;
+ width:200px;
+ margin:0px;
+ 
+}
+ .about {
+ display:flex;
+ font-size:11px;
+ gap:9px;
+ margin-top:0px;
+}
+ .about a {
+ text-decoration:none;
+ color:#606770;}
